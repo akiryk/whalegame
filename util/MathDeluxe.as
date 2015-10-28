@@ -1,0 +1,1 @@
+﻿class util.MathDeluxe {	// empty constructor function	public function MathDeluxe(){		// empty	}			// returns an angle in degrees	public function getCosD(angle:Number):Number {		return Math.cos (angle * (Math.PI / 180));	}			public function getSinD(angle:Number):Number {		return Math.sin (angle * (Math.PI / 180));	}	}
